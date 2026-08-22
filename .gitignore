@@ -1,0 +1,63 @@
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Flutter / Dart
+.dart_tool/
+build/
+.packages
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android
+.gradle/
+gradle-wrapper.jar
+/captures/
+/gradlew
+/gradlew.bat
+/local.properties
+GeneratedPluginRegistrant.java
+.cxx/
+hashes/
+key.properties
+**/*.keystore
+**/*.jks
+fileHashes.bin
+fileHashes.lock
+# iOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+
+# IDEs
+.idea/
+*.iml
+*.iws
+
+# Firebase credentials
+firebase_key.json
+# Vector Databases
+chroma_db/
+backend/app/chroma_db/
+
+# Firebase configuration files
+google-services.json
+GoogleService-Info.plist
+
